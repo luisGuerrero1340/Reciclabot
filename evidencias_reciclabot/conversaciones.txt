@@ -1,0 +1,125 @@
+ReciclaBot - evidencias de ejecución
+Ejecución UTC: 2026-10-26T03:51:57.345470+00:00
+Python: 3.12.1 | NLTK: 3.9.1
+
+Conversación 01 | Usuario: 'Hola'
+ReciclaBot: ¡Hola! Soy ReciclaBot, tu asistente para separar correctamente los residuos en casa. Pregúntame, por ejemplo, "¿dónde tiro las pilas?" o "¿cómo separo el plástico?". Escribe "ayuda" para ver todos los temas.
+Intención: saludo | Esperada: saludo | Correcto: True
+
+Conversación 01 | Usuario: '¿Dónde tiro las cáscaras de fruta?'
+ReciclaBot: Los residuos orgánicos (cáscaras, restos de comida, café, cascarón y residuos de jardín) van en el contenedor de orgánicos, que normalmente se identifica con el color verde. Escúrrelos bien y no los mezcles con plástico, papel ni bolsas. Si tienes espacio, puedes aprovecharlos para hacer composta. Confirma el color del contenedor y el día de recolección con tu municipio.
+Intención: organicos | Esperada: organicos | Correcto: True
+
+Conversación 01 | Usuario: 'Gracias'
+ReciclaBot: ¡Con gusto! Cada residuo bien separado cuenta. ¿Tienes otra duda sobre reciclaje?
+Intención: agradecimiento | Esperada: agradecimiento | Correcto: True
+
+Conversación 02 | Usuario: 'Buenos días'
+ReciclaBot: ¡Hola! Soy ReciclaBot, tu asistente para separar correctamente los residuos en casa. Pregúntame, por ejemplo, "¿dónde tiro las pilas?" o "¿cómo separo el plástico?". Escribe "ayuda" para ver todos los temas.
+Intención: saludo | Esperada: saludo | Correcto: True
+
+Conversación 02 | Usuario: '¿Cómo separo las botellas de plástico?'
+ReciclaBot: Los plásticos reciclables (botellas PET, envases de HDPE como los de champú o detergente y las tapas) van en inorgánicos reciclables: enjuágalos, aplástalos y sepáralos de otros materiales. Las bolsas, los popotes y el unicel tienen poca aceptación en los centros de acopio; pregunta si los reciben y, si no, deposítalos en inorgánicos no reciclables.
+Intención: plastico | Esperada: plastico | Correcto: True
+
+Conversación 02 | Usuario: '¿Y las bolsas de plástico?'
+ReciclaBot: Los plásticos reciclables (botellas PET, envases de HDPE como los de champú o detergente y las tapas) van en inorgánicos reciclables: enjuágalos, aplástalos y sepáralos de otros materiales. Las bolsas, los popotes y el unicel tienen poca aceptación en los centros de acopio; pregunta si los reciben y, si no, deposítalos en inorgánicos no reciclables.
+Intención: plastico | Esperada: plastico | Correcto: True
+
+Conversación 02 | Usuario: 'Adiós'
+ReciclaBot: ¡Hasta luego! Gracias por usar ReciclaBot. Recuerda: separar bien es reciclar mejor.
+Intención: despedida | Esperada: despedida | Correcto: True
+
+Conversación 03 | Usuario: 'Tengo cajas de cartón y periódicos viejos'
+ReciclaBot: El papel, el cartón, los periódicos, las revistas y las cajas van en inorgánicos reciclables, siempre limpios y secos. Dobla o aplana las cajas para ahorrar espacio. El papel manchado de grasa (como las cajas de pizza sucias), el papel encerado y las servilletas usadas no se reciclan: van en inorgánicos no reciclables.
+Intención: papel_carton | Esperada: papel_carton | Correcto: True
+
+Conversación 03 | Usuario: '¿Qué hago con una caja de pizza sucia?'
+ReciclaBot: El papel, el cartón, los periódicos, las revistas y las cajas van en inorgánicos reciclables, siempre limpios y secos. Dobla o aplana las cajas para ahorrar espacio. El papel manchado de grasa (como las cajas de pizza sucias), el papel encerado y las servilletas usadas no se reciclan: van en inorgánicos no reciclables.
+Intención: papel_carton | Esperada: papel_carton | Correcto: True
+
+Conversación 04 | Usuario: '¿Los frascos de vidrio se reciclan?'
+ReciclaBot: Las botellas y los frascos de vidrio van en inorgánicos reciclables: enjuágalos y retira las tapas. No los mezcles con focos, espejos, cerámica, loza ni vidrio de ventanas, que tienen otra composición y no se reciclan con el vidrio común; envuélvelos para evitar cortaduras y deposítalos en inorgánicos no reciclables (los focos ahorradores van a un punto de manejo especial).
+Intención: vidrio | Esperada: vidrio | Correcto: True
+
+Conversación 04 | Usuario: '¿Y los focos?'
+ReciclaBot: Las botellas y los frascos de vidrio van en inorgánicos reciclables: enjuágalos y retira las tapas. No los mezcles con focos, espejos, cerámica, loza ni vidrio de ventanas, que tienen otra composición y no se reciclan con el vidrio común; envuélvelos para evitar cortaduras y deposítalos en inorgánicos no reciclables (los focos ahorradores van a un punto de manejo especial).
+Intención: vidrio | Esperada: vidrio | Correcto: True
+
+Conversación 04 | Usuario: 'salir'
+ReciclaBot: ¡Hasta luego! Gracias por usar ReciclaBot. Recuerda: separar bien es reciclar mejor.
+Intención: despedida | Esperada: despedida | Correcto: True
+
+Conversación 05 | Usuario: '¿DÓNDE TIRO LAS LATAS DE ALUMINIO?'
+ReciclaBot: Las latas de aluminio y hojalata, las tapas metálicas y la chatarra pequeña van en inorgánicos reciclables. Enjuaga y aplasta las latas para reducir volumen. Los aerosoles solo se reciclan si están completamente vacíos; si contienen restos de pintura o químicos, trátalos como residuo peligroso.
+Intención: metal | Esperada: metal | Correcto: True
+
+Conversación 05 | Usuario: 'gracias'
+ReciclaBot: ¡Con gusto! Cada residuo bien separado cuenta. ¿Tienes otra duda sobre reciclaje?
+Intención: agradecimiento | Esperada: agradecimiento | Correcto: True
+
+Conversación 06 | Usuario: 'Tengo pilas usadas y un celular viejo'
+ReciclaBot: Las pilas, baterías, celulares, cargadores, cables y demás aparatos electrónicos son residuos de manejo especial: no van en la basura común porque contienen metales pesados. Guárdalos en una bolsa o caja aparte y llévalos a un punto de acopio de electrónicos (por ejemplo, jornadas como el Reciclatrón en la Ciudad de México) o a los contenedores de pilas que hay en escuelas, plazas y tiendas participantes.
+Intención: electronicos | Esperada: electronicos | Correcto: True
+
+Conversación 06 | Usuario: '¿Dónde las puedo llevar?'
+ReciclaBot: Para entregar tus reciclables busca los centros de acopio, puntos limpios o jornadas de reciclaje de tu municipio; además, algunos supermercados y plazas tienen máquinas o contenedores para PET, latas y pilas. Lleva los materiales limpios, secos y separados por tipo. Revisa el directorio de centros de acopio de tu localidad para ubicar el más cercano.
+Intención: acopio | Esperada: acopio | Correcto: True
+
+Conversación 07 | Usuario: 'Se me caducaron unos medicamentos'
+ReciclaBot: Los medicamentos caducos, aceites, pinturas, solventes, jeringas y productos químicos son residuos peligrosos: nunca los tires al drenaje ni a la basura común. Los medicamentos se entregan en los contenedores del programa SINGREM que hay en farmacias; el aceite de cocina usado, en frascos cerrados, en centros de acopio; y las pinturas, solventes y jeringas, en las jornadas de residuos peligrosos de tu municipio.
+Intención: peligrosos | Esperada: peligrosos | Correcto: True
+
+Conversación 07 | Usuario: '¿Y el aceite de cocina usado?'
+ReciclaBot: Los medicamentos caducos, aceites, pinturas, solventes, jeringas y productos químicos son residuos peligrosos: nunca los tires al drenaje ni a la basura común. Los medicamentos se entregan en los contenedores del programa SINGREM que hay en farmacias; el aceite de cocina usado, en frascos cerrados, en centros de acopio; y las pinturas, solventes y jeringas, en las jornadas de residuos peligrosos de tu municipio.
+Intención: peligrosos | Esperada: peligrosos | Correcto: True
+
+Conversación 08 | Usuario: '¿Dónde van los pañales y el papel higiénico?'
+ReciclaBot: Los pañales, el papel higiénico, las toallas sanitarias, las toallitas húmedas, los cubrebocas, las colillas y los chicles son residuos sanitarios, es decir, inorgánicos no reciclables. Colócalos en una bolsa cerrada e identificada y deposítalos en el contenedor de no reciclables; nunca los mezcles con los orgánicos ni con los reciclables.
+Intención: sanitarios | Esperada: sanitarios | Correcto: True
+
+Conversación 08 | Usuario: 'Hasta luego'
+ReciclaBot: ¡Hasta luego! Gracias por usar ReciclaBot. Recuerda: separar bien es reciclar mejor.
+Intención: despedida | Esperada: despedida | Correcto: True
+
+Conversación 09 | Usuario: '¿Qué día pasa el camión de la basura?'
+ReciclaBot: Los días y horarios de recolección dependen de tu colonia y municipio, y ReciclaBot no tiene acceso a esa información. Consulta el calendario de recolección en el sitio web o las redes sociales de tu alcaldía o municipio, o pregunta al personal del camión. En muchas localidades los orgánicos y los inorgánicos se recogen en días distintos.
+Intención: recoleccion | Esperada: recoleccion | Correcto: True
+
+Conversación 09 | Usuario: '¿Hay un centro de acopio cerca?'
+ReciclaBot: Para entregar tus reciclables busca los centros de acopio, puntos limpios o jornadas de reciclaje de tu municipio; además, algunos supermercados y plazas tienen máquinas o contenedores para PET, latas y pilas. Lleva los materiales limpios, secos y separados por tipo. Revisa el directorio de centros de acopio de tu localidad para ubicar el más cercano.
+Intención: acopio | Esperada: acopio | Correcto: True
+
+Conversación 10 | Usuario: '¿Qué puedes hacer?'
+ReciclaBot: Puedo orientarte sobre cómo separar: orgánicos, plásticos, papel y cartón, vidrio, metales, electrónicos y pilas, residuos peligrosos y residuos sanitarios. También sobre dónde llevar los reciclables, la recolección y consejos para generar menos basura. Escribe "salir" para terminar.
+Intención: ayuda | Esperada: ayuda | Correcto: True
+
+Conversación 10 | Usuario: 'Dame consejos para generar menos basura'
+ReciclaBot: Tres acciones sencillas: 1) Reduce: lleva bolsa y termo reutilizables y evita productos con exceso de empaque. 2) Reutiliza: los frascos, las cajas y las bolsas pueden tener una segunda vida antes de desecharse. 3) Separa desde casa: orgánicos, reciclables y no reciclables en contenedores distintos. Comprar a granel y hacer composta reducen todavía más tu basura.
+Intención: consejos | Esperada: consejos | Correcto: True
+
+Conversación 10 | Usuario: 'Perfecto, gracias'
+ReciclaBot: ¡Con gusto! Cada residuo bien separado cuenta. ¿Tienes otra duda sobre reciclaje?
+Intención: agradecimiento | Esperada: agradecimiento | Correcto: True
+
+Conversación 11 | Usuario: '   '
+ReciclaBot: No escribiste ninguna consulta. Cuéntame qué residuo quieres separar o escribe "ayuda" para ver los temas.
+Intención: vacio | Esperada: vacio | Correcto: True
+
+Conversación 11 | Usuario: '¿Por qué es importante reciclar?'
+ReciclaBot: Separar y reciclar reduce la cantidad de residuos que llegan a los rellenos sanitarios, permite recuperar materiales como PET, aluminio, papel y vidrio, y disminuye la contaminación y el consumo de recursos naturales. La separación correcta desde casa es el primer paso para que el reciclaje sea posible: un material contaminado con restos de comida muchas veces ya no se puede recuperar.
+Intención: importancia | Esperada: importancia | Correcto: True
+
+Conversación 12 | Usuario: '¿Qué clima habrá mañana?'
+ReciclaBot: No logré identificar tu consulta. Puedo ayudarte con orgánicos, plásticos, papel y cartón, vidrio, metales, electrónicos, residuos peligrosos, residuos sanitarios, centros de acopio, recolección y consejos. Intenta mencionar el material, por ejemplo: "¿dónde tiro los frascos de vidrio?".
+Intención: desconocida | Esperada: desconocida | Correcto: True
+
+Conversación 12 | Usuario: 'Quiero tirar plastco'
+ReciclaBot: No logré identificar tu consulta. Puedo ayudarte con orgánicos, plásticos, papel y cartón, vidrio, metales, electrónicos, residuos peligrosos, residuos sanitarios, centros de acopio, recolección y consejos. Intenta mencionar el material, por ejemplo: "¿dónde tiro los frascos de vidrio?".
+Intención: desconocida | Esperada: desconocida | Correcto: True
+
+Conversación 12 | Usuario: '¿Dónde tiro botellas de plástico y latas?'
+ReciclaBot: Los plásticos reciclables (botellas PET, envases de HDPE como los de champú o detergente y las tapas) van en inorgánicos reciclables: enjuágalos, aplástalos y sepáralos de otros materiales. Las bolsas, los popotes y el unicel tienen poca aceptación en los centros de acopio; pregunta si los reciben y, si no, deposítalos en inorgánicos no reciclables.
+Intención: plastico | Esperada: plastico | Correcto: True
+
+Resultado: 30/30 turnos correctos.
